@@ -43,9 +43,9 @@ try {
 $gate = new Gate(
     5,
     0,
-    Gate::MOVING_FORWARD,
+    Gate::MOVING_BACKWARD,
     0,
-    true
+    false
 );
 
 $movingManager = new MovingManager(

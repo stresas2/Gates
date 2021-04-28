@@ -36,9 +36,9 @@ class GatesWorkingTest extends TestCase
         $this->gate = new Gate(
             5,
             0,
-            Gate::MOVING_FORWARD,
+            Gate::MOVING_BACKWARD,
             0,
-            true
+            false
         );
 
         $this->movingManager = new MovingManager(
